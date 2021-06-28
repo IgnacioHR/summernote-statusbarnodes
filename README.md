@@ -1,30 +1,38 @@
-# summernote-classes v0.2
+# summernote-statusbarnodes v0.1
+
 A plugin for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.
 
-summernote-classes adds functionality that indicates the current clicked on element inside the editing area, if classes for language and options are set, the classes will displayed next to the selected element which are clickable to toggle that class for the selected element with indication if the element contains the class or not. Classes not outlined in the plugin lang, or options will simply be displayed as the Element Node Type without the class options.
+summernote-statusbarnodes adds functionality that shows all parent nodes of selected node in the summernote status bar. The idea is to add the following functionality in a later step:
 
-Included are some sample classes from Bootstrap 4, feel free to add, edit or remove.
+1. Selecting the nodes by clicking on the statusbar
+2. Allowing to edit classes
 
-![summernote-classes](summernote-classes.gif)
+![summernote-statusbarnodes](summernote-statusbarnodes.jpg)
 
+## Installation
 
-### Installation
-
-#### 1. Include JS
+### 1. Include JS and CSS
 
 Include the following code after Summernote:
 
 ```html
-<script src="summernote-classes.js"></script>
+<script src="summernote-statusbarnodes.js"></script>
 ```
 
-#### 2. Supported languages
+Include the following code after Summernote css.
+
+```html
+<link rel="stylesheet" href="../plugin/statusbarnodes/summernote-statusbarnodes.css">
+```
+
+### 2. Supported languages
 
 Currently available in English!
 
-#### 3. Options
-The classes should be added in the plugin directly, the array in the language part must match up with the array in the options section.
-There is now an option `disableTableNesting: false|true` within the plugin that if set to true will disable the Table Button in the Toolbar to stop inserting a Table inside a Table.
+### 3. Options
 
-#### 4. Check out our other Summernote Plugins via our main Github page.
+None at this time. This is work in progress, feel free to contribute!
+
+### 4. Check out our other Summernote Plugins via summernote main Github page
+
 - [Diemen Design](https://github.com/DiemenDesign/)
