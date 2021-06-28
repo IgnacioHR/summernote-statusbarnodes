@@ -1,0 +1,7 @@
+.note-node-button {
+	border: 0;
+	background: none;
+	color: var(--note-btn-color);
+	box-shadow: none;
+	border-radius: 0px;
+}
